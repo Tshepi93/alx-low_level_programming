@@ -18,10 +18,10 @@ int main(void)
 			c++;
 		}
 	while
-		(d <= 'z') {
-			purchar(c);
+		(d <= 'Z') {
+			purchar(d);
 			d++;
 		}
+	purchar('\n');
 	return (0);
 }
-
